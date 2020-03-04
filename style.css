@@ -12,11 +12,33 @@
     height: 100%;
   
   } */
-  
-  html { 
+
+html { 
     background: url(images/main-desk1.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: medium;
+    font-weight: 400;
   }
+
+.navbar-brand
+  {
+    font-family: 'Rye', cursive;
+    font-size: large;
+    font-weight: 500;
+    font-variant-position: super;
+  }
+/*(
+.navbar-collapse
+{
+display:flex;
+}
+.navbar-nav
+  {
+     align-self: flex-end;
+  }
+  */
