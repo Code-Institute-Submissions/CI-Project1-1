@@ -15,6 +15,32 @@ body {
 .navbar-brand {
   font-family: "Rye", cursive;
 }
-.web-com {
+.hero-page-com {
   color: white;
+  margin-bottom: 1.5rem;
+  margin-top: 1rem;
+  font-family: "Open Sans Condensed";
+  font-size: 8rem;
+  font-weight: lighter;
+  font-stretch: extra-condensed;
+}
+.hero-page-adv {
+  color: white;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 2.5rem;
+  margin-top: 0.6rem;
+}
+.hero-page-btn-contact {
+  background-color: rgba(0, 0, 0, 0);
+  border-color: white;
+  margin-bottom: 1.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+}
+.hero-page-btn-contact:hover {
+  background-color: rgba(0, 0, 0, 0);
+  border-color: white;
+  border-width: 4px;
 }
