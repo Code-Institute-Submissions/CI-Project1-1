@@ -13,8 +13,8 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
-.bavbar {
-  margin: 20px;
+.navbar {
+  padding-top: 10px;
 }
 .navbar-brand {
   font-family: "Rye", cursive;
