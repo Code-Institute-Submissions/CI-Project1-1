@@ -61,15 +61,14 @@ body {
   padding: 15px 0px;
   line-height: 24px;
 }
-.services-icon {
-  display: inline-block;
+.services.icon {
   float: left;
   width: auto;
   height: auto;
   padding-right: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 50px;
 }
-.right {
+.subhead2 {
   padding-right: 20px;
 }
 .footer-1 {
@@ -79,4 +78,7 @@ body {
   justify-content: center;
   color: white;
   font-weight: lighter;
+}
+.services2 {
+  padding-bottom: 20px;
 }
