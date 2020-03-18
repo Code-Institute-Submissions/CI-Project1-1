@@ -31,7 +31,7 @@ First page show company name on the top left hand corner, navigation bar on the 
 scrollpsy is used on the navigation bar when click on the option it will scroll to the intended section.
 
 ## Deployment
-This website is deployed in github and hosted in github pages github pages html, css, config files and image folders are saved in github repositories online, github page allow users to publish its url online
+This website is deployed in github and hosted in github pages html, css, config files and image folders are saved in github repositories online, github page allow users to publish its url online
 to access website via internet.
 * [Project1](https://lionelng-ci.github.io/CI-Project1/)-github url link to project1 website
 
