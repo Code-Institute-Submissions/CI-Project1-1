@@ -18,3 +18,22 @@ used google developer inspect tools to check webpage layout on different deveice
 ```
  
 ## UX
+
+interested in 
+## Deployment
+This website is deployed in github and hosted in github pages with 3
+
+## Credits
+
+Photos from unsplash.com by:
+*Jamie Street
+*bharath g s 
+*Scott Webb
+*Christian Fregnan
+*Charles Deluvio
+*gor Miske
+(if i have miss out anyone please let me know and i will include in the credit section)
+Disclaimer:
+```
+All content & ideas used in this website is purely for educational purpose and no copyright infringement is intended.
+```
