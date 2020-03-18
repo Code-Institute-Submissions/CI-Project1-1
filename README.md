@@ -18,11 +18,14 @@ used google developer inspect tools to check webpage layout on different deveice
 ```
  
 ## UX
+intended for people who is interested to have their business or any other information to publish online
+color of green is use for the main page background which is gentle to the eye and selection of other colors like white, light grey and dark grey all matches with green each section is demarcated by different color to let users see the information with ease.
 
-interested in 
+## UI
+
 ## Deployment
-This website is deployed in github and hosted in github pages github pages html, css, config files and image folders are saved in github repositories online, github page allow users to publish its url 
-to access website online.
+This website is deployed in github and hosted in github pages github pages html, css, config files and image folders are saved in github repositories online, github page allow users to publish its url online
+to access website via internet.
 * [Project1](https://lionelng-ci.github.io/CI-Project1/)-github url link to project1 website
 
 ## Credits
@@ -36,6 +39,6 @@ to access website online.
 * gor Miske
 (if i have miss out anyone please let me know and i will include in the credit section)
 Disclaimer:
-```
+
 All content & ideas used in this website is purely for educational purpose and no copyright infringement is intended.
-```
+
