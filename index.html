@@ -21,31 +21,22 @@
     <title>Vincique</title>
   </head>
   <body>
-    <!-- Navbar -->
+     <!-- Navbar -->
     <header>
       <nav
-        class="navbar px-5 navbar-expand-lg navbar-light bg-light bg-transparent text-success sticky-top"
+        class="navbar px-5 navbar-expand-lg navbar-light bg-light bg-transparent text-success sticky-top" id="mainNav"
       >
         <span class="navbar-brand mb-0 h1 text-white"><h2>Vincique</h2></span>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse" id="navbarRightMenu">
           <ul class="navbar-nav ml-auto ">
-            <li class="nav-item dropdown active">
-              <a
-                class="nav-link dropdown-toggle text-white"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                Our services
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#services">Services</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link text-white" href="#portfolio">Portfolio</a>
+            </li>
                 <li class="nav-item active">
-                  <a class="nav-link text-white" href="#">Contact us</a>
+                  <a class="nav-link text-white" href="#contactUs">Contact us</a>
                 </li>
               </div>
             </li>
@@ -56,7 +47,7 @@
 
     <!-- Hero page -->
     <div
-      class="hero-image-container container d-flex justify-content-center h-100 align-items-center"
+      class="hero-image-container container d-flex justify-content-center h-100 align-items-center jumbotron-fluid"
     >
       <div class="row">
         <section class="text-center col-12">
@@ -65,7 +56,7 @@
           <h6 class="hero-page-adv">
             Simple, elegant & effective
           </h6>
-          <button class="btn btn-success hero-page-btn-contact">
+          <button class="btn btn-success hero-page-btn-contact" href="#contactUs">
             Discover
           </button>
         </section>
@@ -74,7 +65,12 @@
 
     <!-- services page -->
     <section class="services-section">
-      <div class="container">
+      <div class="services-page container-md content-justify-center data-spy="scroll" data-target="#mainNav" data-offset="0"">
+        <h2 id="services"class="services-heading text-md-center text-uppercase pd-2">
+          Services
+        </h2>
+      </div>
+      <div class="container"> 
         <div class="row">
           <div class="col-md">
             <img class="services icon rounded float-left" src="images/icons8-quick-mode-on-48.png"alt="lighting">
@@ -154,8 +150,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">Portfolio</h2>
-          <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+          <h2 class="section-heading text-uppercase pt-3 text-white">Portfolio</h2>
         </div>
       </div>
       <div class="row">
@@ -166,11 +161,10 @@
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="images/jamie-street-VP4WmibxvcY-unsplash.jpg" alt="mobile trading apps">
+            <img class="img-fluid" src="images/jamie-street-VP4WmibxvcY-unsplash a.jpg" alt="mobile trading apps">
           </a>
           <div class="portfolio-caption">
-            <h4>Mobile Trading Apps</h4>
-            <p class="text-muted">Illustration</p>
+            <h4>Mobile Apps</h4>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
@@ -180,11 +174,10 @@
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="images/explore-start-bootstrap-theme.jpg" alt="">
+            <img class="img-fluid" src="images/explore-start-bootstrap-theme a.jpg" alt="" >
           </a>
           <div class="portfolio-caption">
             <h4>Graphic Design</h4>
-            <p class="text-muted">Graphic Design</p>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
@@ -194,11 +187,10 @@
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="images/charles-deluvio-ZQ1TGdfXOkE-unsplash.jpg" alt="">
+            <img class="img-fluid" src="images/charles-deluvio-ZQ1TGdfXOkE-unsplash a.jpg" alt="">
           </a>
           <div class="portfolio-caption">
             <h4>Ecommerce</h4>
-            <p class="text-muted">Identity</p>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
@@ -208,11 +200,10 @@
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="images/branding-bootstrap-theme.jpg" alt="">
+            <img class="img-fluid" src="images/branding-bootstrap-theme a.jpg" alt="">
           </a>
           <div class="portfolio-caption">
             <h4>Branding</h4>
-            <p class="text-muted">Branding</p>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
@@ -222,11 +213,10 @@
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="images/igor-miske-Px3iBXV-4TU-unsplash.jpg" alt="">
+            <img class="img-fluid" src="images/igor-miske-Px3iBXV-4TU-unsplash a.jpg" alt="website">
           </a>
           <div class="portfolio-caption">
             <h4>Website Design</h4>
-            <p class="text-muted">Website Design</p>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
@@ -236,11 +226,10 @@
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="images/photography-bootstrap theme.jpg" alt="">
+            <img class="img-fluid" src="images/photography-bootstrap theme a.jpg" alt="">
           </a>
           <div class="portfolio-caption">
             <h4>Photography</h4>
-            <p class="text-muted">Photography</p>
           </div>
         </div>
       </div>
@@ -251,7 +240,7 @@
         <div class="container">
           <div class="row">
             <div class="col-xs mx-auto text-center footer-1">
-              <img href="index.html"><h4>Vincique</h4></a>
+              <a class="alert-white"href="#mainNav"><h4>Vincique</h4></a>
               <p class="footer-1 address">
                 <small>Tree Branch</small>
                 <br />
@@ -265,21 +254,212 @@
           </div>
         </div>
     </footer>
+    <!-- Modal 1 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase">Mobile Apps</h2>
+                <img class="img-fluid d-block mx-auto" src="images/jamie-street-VP4WmibxvcY-unsplash.jpg" alt="">
+                <ul class="list-inline">
+                  <li>Date: January 2017</li>
+                  <li>Client: Threads</li>
+                </ul>
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close Project</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 2 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase">Graphic Design</h2>
+                <img class="img-fluid d-block mx-auto" src="images/explore-start-bootstrap-theme.jpg" alt="">
+                <ul class="list-inline">
+                  <li>Date: January 2017</li>
+                  <li>Client: Explore</li>
+                  <li>Category: Graphic Design</li>
+                </ul>
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close Project</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 3 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase">Ecommerce</h2>
+                <img class="img-fluid d-block mx-auto" src="images/charles-deluvio-ZQ1TGdfXOkE-unsplash.jpg" alt="">
+                <ul class="list-inline">
+                  <li>Date: January 2017</li>
+                  <li>Client: Finish</li>
+                  <li>Category: Identity</li>
+                </ul>
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close Project</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 4 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase">Branding</h2>
+                <img class="img-fluid d-block mx-auto" src="images/branding-bootstrap-theme.jpg" alt="">
+                <ul class="list-inline">
+                  <li>Date: January 2017</li>
+                  <li>Client: Lines</li>
+                  <li>Category: Branding</li>
+                </ul>
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close Project</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 5 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase">Web Design</h2>
+                <img class="img-fluid d-block mx-auto" src="images/igor-miske-Px3iBXV-4TU-unsplash.jpg" alt="">
+                <ul class="list-inline">
+                  <li>Date: January 2017</li>
+                  <li>Client: Southwest</li>
+                  <li>Category: Website Design</li>
+                </ul>
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close Project</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 6 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase">Photography</h2>
+                <img class="img-fluid d-block mx-auto" src="images/photography-bootstrap theme.jpg" alt="">
+                <ul class="list-inline">
+                  <li>Date: January 2017</li>
+                  <li>Client: Window</li>
+                  <li>Category: Photography</li>
+                </ul>
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close Project</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+      <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Bootstrap script -->
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
   </body>
-  <script
-    src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-    crossorigin="anonymous"
-  ></script>
-  <script
-    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"
-  ></script>
-  <!-- Bootstrap script -->
-  <script
-    src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-    crossorigin="anonymous"
-  ></script>
 </html>
