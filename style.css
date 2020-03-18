@@ -22,6 +22,10 @@ body {
   font-family: "Rye", cursive;
   padding-bottom: 5px;
 }
+.company-name.footer-1{
+  font-family: "Rye", cursive;
+  padding-top: 30px;
+}
 #navbarRightMenu {
   font-size: 20px;
   padding: 5px 20px;
