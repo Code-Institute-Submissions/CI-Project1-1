@@ -16,7 +16,11 @@ Testing the responsiveness of the webpage
 ```
 used google developer inspect tools to check webpage layout on different deveices display screen. 
 ```
- 
+## Technologies used
+* HTML 5
+* CSS 3
+* bootstrap 4.4.1
+
 ## UX
 intended for people who is interested to have their business or any other information to publish online
 color of green is use for the main page background which is gentle to the eye and selection of other colors like white, light grey and dark grey all matches with green each section is demarcated by different color to let users see the information with ease.
