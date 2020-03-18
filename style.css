@@ -282,6 +282,10 @@ section#contactUs {
   padding: 20px;
 }
 
+section#contactUs .section-heading {
+  color: #fff;
+}
+
 section#contactUs .form-group input.form-control {
   height: auto;
 }
