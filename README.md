@@ -21,11 +21,13 @@ used google developer inspect tools to check webpage layout on different deveice
 
 interested in 
 ## Deployment
-This website is deployed in github and hosted in github pages with 3
+This website is deployed in github and hosted in github pages github pages html, css, config files and image folders are saved in github repositories online, github page allow users to publish its url 
+to access website online.
+* [Project1](https://lionelng-ci.github.io/CI-Project1/)-github url link to project1 website
 
 ## Credits
 
-##Photos from unsplash.com by:
+### Photos from unsplash.com by:
 * Jamie Street
 * bharath g s
 * Scott Webb
