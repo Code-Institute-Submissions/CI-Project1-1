@@ -26,12 +26,12 @@ This website is deployed in github and hosted in github pages with 3
 ## Credits
 
 Photos from unsplash.com by:
-*Jamie Street
-*bharath g s 
-*Scott Webb
-*Christian Fregnan
-*Charles Deluvio
-*gor Miske
+**Jamie Street**
+**bharath g s**
+**Scott Webb**
+**Christian Fregnan**
+**Charles Deluvio**
+**gor Miske**
 (if i have miss out anyone please let me know and i will include in the credit section)
 Disclaimer:
 ```
