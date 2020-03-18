@@ -9,11 +9,12 @@ portfolio to showcase its to potential clients and contact page for clients to f
 
 Testing of all clickable links
 ```
-Click on the link to see whether it bring user to the intend webpage or section
-click on the portfolio photos to see 
+Click on the link to see whether it bring user to the intend webpage or section.
+click on the portfolio photos to see whether the image display correctly.
 ```
 Testing the responsiveness of the webpage
 ```
 used google developer inspect tools to check webpage layout on different deveices display screen. 
 ```
  
+## UX
