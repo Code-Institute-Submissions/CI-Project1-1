@@ -22,6 +22,9 @@ intended for people who is interested to have their business or any other inform
 color of green is use for the main page background which is gentle to the eye and selection of other colors like white, light grey and dark grey all matches with green each section is demarcated by different color to let users see the information with ease.
 
 ## UI
+The main design emphasis focus on simplicity less clutter on the page leaving essential information and clickables for users to access the information desired.
+First page show company name on the top left hand corner, navigation bar on the top right hand corner and call to action on the center of the page.
+scrollpsy is used on the navigation bar when click on the option it will scroll to the intended section.
 
 ## Deployment
 This website is deployed in github and hosted in github pages github pages html, css, config files and image folders are saved in github repositories online, github page allow users to publish its url online
@@ -38,7 +41,8 @@ to access website via internet.
 * Charles Deluvio
 * gor Miske
 (if i have miss out anyone please let me know and i will include in the credit section)
-Disclaimer:
+
+### Disclaimer:
 
 All content & ideas used in this website is purely for educational purpose and no copyright infringement is intended.
 
