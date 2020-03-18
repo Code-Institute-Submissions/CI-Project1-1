@@ -11,13 +11,14 @@ Users/potential clients can navigate to the desire section from the top naviagti
 a section that showcase its portfolio to potential clients and contact page for clients to further their interest with Vincique.
 
 ## Running the tests
-###All testing are done manually
+### All testing are done manually, descriptions of the methods used for testing are as follow:
 
 Testing of all clickable links
 ```
 Click on the link to see whether it bring user to the intend webpage or section
 ```
 Testing the responsiveness of the webpage
-`````
+```
 used google developer inspect tools to check webpage layout on different deveices display screen. 
-`````
+```
+Testin on 
